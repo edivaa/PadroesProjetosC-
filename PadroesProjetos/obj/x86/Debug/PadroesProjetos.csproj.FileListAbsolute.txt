@@ -1,0 +1,5 @@
+/Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/bin/Debug/PadroesProjetos.exe
+/Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/bin/Debug/PadroesProjetos.pdb
+/Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.CoreCompileInputs.cache
+/Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.exe
+/Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.pdb
