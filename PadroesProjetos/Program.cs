@@ -37,7 +37,7 @@ namespace PadroesProjetos
 
 
 
-            //Abstract
+            //Class Abstracts
             NoteBook noteBook = new NoteBook("Acer aspire");
 
             noteBook.Porta1 = new Iphone();
