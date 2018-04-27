@@ -11,4 +11,23 @@ namespace PadroesProjetos.Classes
         }
 
     }
+
+
+
+    public class Estagiario: Pessoa
+    {
+
+        public void trabalhar()
+        {
+            Console.WriteLine(Nome + "estagiario Trabalhanado ...");
+        }
+    }
+
+
+
+    public class ArquitetoSoftware :Funcionario
+    {
+
+       
+    }
 }
