@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadroesProjetos", "PadroesProjetos\PadroesProjetos.csproj", "{4687C505-6FBB-4EF3-8E02-11D8EF8E2AC5}"
 EndProject
 Global
@@ -13,5 +14,11 @@ Global
 		{4687C505-6FBB-4EF3-8E02-11D8EF8E2AC5}.Debug|x86.Build.0 = Debug|x86
 		{4687C505-6FBB-4EF3-8E02-11D8EF8E2AC5}.Release|x86.ActiveCfg = Release|x86
 		{4687C505-6FBB-4EF3-8E02-11D8EF8E2AC5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5923001-7A62-46E8-9C59-E6E5B6DBB995}
 	EndGlobalSection
 EndGlobal
