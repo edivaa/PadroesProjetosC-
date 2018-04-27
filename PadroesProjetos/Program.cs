@@ -38,17 +38,27 @@ namespace PadroesProjetos
 
 
             //Class Abstracts
-            NoteBook noteBook = new NoteBook("Acer aspire");
+            //NoteBook noteBook = new NoteBook("Acer aspire");
+            //
+            //noteBook.Porta1 = new Iphone();
+            //noteBook.Porta1.plugar();
+            //noteBook.Porta2 = new Teclado();
+            //noteBook.Porta2.plugar();
+            //noteBook.Porta3 = new Mouse();
+            //noteBook.Porta3.plugar();
 
-            noteBook.Porta1 = new Iphone();
-            noteBook.Porta1.plugar();
-            noteBook.Porta2 = new Teclado();
-            noteBook.Porta2.plugar();
-            noteBook.Porta3 = new Mouse();
-            noteBook.Porta3.plugar();
+            //Interfaces
+            Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
+            MP3 musica = new MP3() { Descricao = "Dream Theater" };
+            Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
+
+            doc.abrir();
+            musica.abrir();
+            foto.abrir();
+            foto.Imprimir();
 
 
-            //Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
     }
 }
