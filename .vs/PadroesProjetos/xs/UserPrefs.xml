@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{4687C505-6FBB-4EF3-8E02-11D8EF8E2AC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PadroesProjetos/Classes/Objetos/NoteBook.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PadroesProjetos/Classes/Objetos/Arquivo.cs">
     <Files>
-      <File FileName="PadroesProjetos/Program.cs" Line="28" Column="29" />
-      <File FileName="PadroesProjetos/Classes/Objetos/NoteBook.cs" Line="34" Column="13" />
+      <File FileName="PadroesProjetos/Program.cs" Line="11" Column="23" />
+      <File FileName="PadroesProjetos/Classes/Objetos/NoteBook.cs" Line="21" Column="6" />
+      <File FileName="PadroesProjetos/Classes/Objetos/Arquivo.cs" Line="4" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -43,6 +43,7 @@
     <Compile Include="Classes\Objetos\Motor.cs" />
     <Compile Include="Classes\Objetos\Bateria.cs" />
     <Compile Include="Classes\Objetos\NoteBook.cs" />
+    <Compile Include="Classes\Objetos\Arquivo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
