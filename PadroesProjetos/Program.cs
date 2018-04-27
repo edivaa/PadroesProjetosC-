@@ -8,6 +8,7 @@ namespace PadroesProjetos
         public static void Main(string[] args)
         {
 
+            //Herancas
             //Aluno aluno = new Aluno();
             //aluno.Nome = "Paulo";
             //aluno.Idade = 25;
@@ -21,17 +22,31 @@ namespace PadroesProjetos
             //funcionario.trabalhar();
 
 
-            MeioTransporte carro = new Carro("Astra GSI");
+            //Polimorfismo
+            //MeioTransporte carro = new Carro("Astra GSI");
 
-            carro.Ligar();
-            carro.Mover();
-            carro.Abastecer();
-            carro.Mover();
+            //carro.Ligar();
+            //carro.Mover();
+            //carro.Abastecer();
+            //carro.Mover();
 
             //MeioTransporte aviao = new Aviao();
             //aviao.Marca = "Embrae";
             //aviao.Modelo = "F22";
             //aviao.Mover();
+
+
+
+            //Abstract
+            NoteBook noteBook = new NoteBook("Acer aspire");
+
+            noteBook.Porta1 = new Iphone();
+            noteBook.Porta1.plugar();
+            noteBook.Porta2 = new Teclado();
+            noteBook.Porta2.plugar();
+            noteBook.Porta3 = new Mouse();
+            noteBook.Porta3.plugar();
+
 
             //Console.WriteLine("Hello World!");
         }
