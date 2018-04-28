@@ -48,14 +48,17 @@ namespace PadroesProjetos
             //noteBook.Porta3.plugar();
 
             //Interfaces
-            Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
-            MP3 musica = new MP3() { Descricao = "Dream Theater" };
-            Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
+            //Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
+            //MP3 musica = new MP3() { Descricao = "Dream Theater" };
+            //Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
 
-            doc.abrir();
-            musica.abrir();
-            foto.abrir();
-            foto.Imprimir();
+            //doc.abrir();
+            //musica.abrir();
+            //foto.abrir();
+            //foto.Imprimir();
+
+            Gerente chefe = new Gerente();
+            chefe.Trabalhar("Sistema atendimento ao usuário");
 
 
             Console.ReadLine();
