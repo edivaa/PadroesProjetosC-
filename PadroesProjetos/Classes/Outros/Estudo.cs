@@ -12,6 +12,7 @@ namespace PadroesProjetos.Classes.Outros
     {
         delegate int Formula(int a, int b);
         delegate int FormulaOp(int a, int b=4, int c=7);
+        delegate void delega(int x, string s);
 
         public void assuntosEstudados() {
 
@@ -71,25 +72,34 @@ namespace PadroesProjetos.Classes.Outros
             //chefe.Trabalhar("Sistema atendimento ao usuário");
 
 
-            //Delegate 
-            Console.WriteLine("Resultado do calculo:" + Calcular(5, 7));
+            //Delegates
 
+            //
+            //Console.WriteLine("Resultado do calculo:" + Calcular(5, 7));
+            //Formula op = (a, b) => (a + b) * 3;
+            //Console.WriteLine(op(5,7));
+            //FormulaOp op2 = (a, b, c) => (a + b) * 3 + c;
+            //Console.WriteLine(op2(4, 6, 9));
+            //Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
+            //Console.WriteLine(op2(4, 6));//Passando apenas dois valores
+            //Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
+            //Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e 
 
-
-            Formula op = (a, b) => (a + b) * 3;
-            Console.WriteLine(op(5,7));
-
-            FormulaOp op2 = (a, b, c) => (a + b) * 3 + c;
-            Console.WriteLine(op2(4, 6, 9));
-            Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
-            Console.WriteLine(op2(4, 6));//Passando apenas dois valores
-            Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
-            Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e C
+            //System.MulticastDelegate
+            delega d;
+            d = MetodoComNome;
+            d(5, "Códigos Eficientes");
         }
 
         static int Calcular(int a, int b)
         {
             return (a + b) * 3;
+        }
+
+
+        static void MetodoComNome(int tempo, string canal)
+        {
+            Console.WriteLine("{0} anos de canal {1}", tempo, canal);
         }
     }
 }
