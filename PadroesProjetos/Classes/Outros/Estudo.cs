@@ -82,7 +82,9 @@ namespace PadroesProjetos.Classes.Outros
             //Console.WriteLine(op2(4, 6, 9));
             //Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
             //Console.WriteLine(op2(4, 6));//Passando apenas dois valores
+         
             //Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
+   
             //Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e 
 
             //System.MulticastDelegate
