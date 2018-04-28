@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using PadroesProjetos.Classes;
+using PadroesProjetos.Classes.Objetos;
+
+namespace PadroesProjetos.Classes.Outros
+{
+    class Estudo
+    {
+        delegate int Formula(int a, int b);
+        delegate int FormulaOp(int a, int b=4, int c=7);
+
+        public void assuntosEstudados() {
+
+
+            //Herancas
+            //Aluno aluno = new Aluno();
+            //aluno.Nome = "Paulo";
+            //aluno.Idade = 25;
+            //aluno.Dormir();
+
+
+            //Funcionario funcionario = new Funcionario();
+            //funcionario.Nome = "Gilberto Santos";
+            //funcionario.Idade = 29;
+            //funcionario.Departamento = "Imóveis";
+            //funcionario.trabalhar();
+
+
+            //Polimorfismo
+            //MeioTransporte carro = new Carro("Astra GSI");
+
+            //carro.Ligar();
+            //carro.Mover();
+            //carro.Abastecer();
+            //carro.Mover();
+
+            //MeioTransporte aviao = new Aviao();
+            //aviao.Marca = "Embrae";
+            //aviao.Modelo = "F22";
+            //aviao.Mover();
+
+
+
+            //Class Abstracts
+            //NoteBook noteBook = new NoteBook("Acer aspire");
+            //
+            //noteBook.Porta1 = new Iphone();
+            //noteBook.Porta1.plugar();
+            //noteBook.Porta2 = new Teclado();
+            //noteBook.Porta2.plugar();
+            //noteBook.Porta3 = new Mouse();
+            //noteBook.Porta3.plugar();
+
+            //Interfaces
+            //Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
+            //MP3 musica = new MP3() { Descricao = "Dream Theater" };
+            //Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
+
+            //doc.abrir();
+            //musica.abrir();
+
+            //foto.abrir();
+            //foto.Imprimir();
+
+            //Delegacao
+            //Gerente chefe = new Gerente();
+            //chefe.Trabalhar("Sistema atendimento ao usuário");
+
+
+            //Delegate 
+            Console.WriteLine("Resultado do calculo:" + Calcular(5, 7));
+
+
+
+            Formula op = (a, b) => (a + b) * 3;
+            Console.WriteLine(op(5,7));
+
+            FormulaOp op2 = (a, b, c) => (a + b) * 3 + c;
+            Console.WriteLine(op2(4, 6, 9));
+            Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
+            Console.WriteLine(op2(4, 6));//Passando apenas dois valores
+            Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
+            Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e C
+        }
+
+        static int Calcular(int a, int b)
+        {
+            return (a + b) * 3;
+        }
+    }
+}
