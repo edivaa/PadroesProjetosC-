@@ -87,6 +87,13 @@ namespace PadroesProjetos.Classes.Outros
 
             //System.MulticastDelegate
             delega d;
+
+            d = delegate (int idade, string nome)
+             {
+                 Console.WriteLine("A idade de {1} é {0}", idade, nome);
+             };
+
+            d(19, "Maria");
             d = MetodoComNome;
             d(5, "Códigos Eficientes");
         }
