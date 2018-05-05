@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{4687C505-6FBB-4EF3-8E02-11D8EF8E2AC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PadroesProjetos/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PadroesProjetos/App.config">
     <Files>
-      <File FileName="PadroesProjetos/Program.cs" Line="23" Column="1" />
+      <File FileName="PadroesProjetos/Program.cs" Line="11" Column="31" />
+      <File FileName="PadroesProjetos/App.config" Line="4" Column="28" />
+      <File FileName="PadroesProjetos/Classes/DB/ComercioDBContext.cs" Line="18" Column="6" />
+      <File FileName="PadroesProjetos/Classes/Objetos/Produto.cs" Line="27" Column="9" />
+      <File FileName="PadroesProjetos/Classes/Outros/Loja.cs" Line="7" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
