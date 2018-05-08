@@ -88,17 +88,23 @@ namespace PadroesProjetos.Classes.Outros
             //Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e 
 
             //System.MulticastDelegate
-            delega d;
+            //delega d;
 
-            d = delegate (int idade, string nome)
-             {
-                 Console.WriteLine("A idade de {1} é {0}", idade, nome);
-             };
+             //d = delegate (int idade, string nome)
+             // {
+             //     Console.WriteLine("A idade de {1} é {0}", idade, nome);
+             // };
+             //
+             //d(19, "Maria");
+             //d = MetodoComNome;
+             //d(5, "Códigos Eficientes");
 
-            d(19, "Maria");
-            d = MetodoComNome;
-            d(5, "Códigos Eficientes");
-        }
+
+              //Implementacao de AbstractFactory
+
+               
+
+        }   
 
         static int Calcular(int a, int b)
         {
