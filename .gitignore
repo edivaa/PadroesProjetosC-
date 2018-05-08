@@ -1,0 +1,10 @@
+*.ide
+*.ide-wal
+8*.csproj
+*.exe
+*.pdb
+*.cache
+*.txt
+*.sqlite
+
+
