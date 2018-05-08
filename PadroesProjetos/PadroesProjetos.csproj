@@ -33,6 +33,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Outros\Estudo.cs" />
+    <Compile Include="Classes\Padroes\DBCconnection.cs" />
+    <Compile Include="Classes\Padroes\SQLConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Pessoas\Aluno.cs" />
