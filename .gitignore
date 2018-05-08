@@ -1,0 +1,5 @@
+*.txt
+*.exe
+*.sqlite
+*.pdb
+*.cache
