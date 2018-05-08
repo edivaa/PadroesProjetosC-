@@ -216,7 +216,7 @@ project.lock.json
 *.cache
 *.txt
 *.sqlite
-*.ide-shm
-	
-
-
+*.ide-shm	
+.vs/PadroesProjetos/xs/UserPrefs.xml
+.vs/PadroesProjetos/xs/sqlite3/db.lock
+.vs/PadroesProjetos/xs/sqlite3/storage.ide-shm
