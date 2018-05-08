@@ -1,5 +1,10 @@
-*.txt
+*.ide
+*.ide-wal
+8*.csproj
 *.exe
-*.sqlite
 *.pdb
 *.cache
+*.txt
+*.sqlite
+
+

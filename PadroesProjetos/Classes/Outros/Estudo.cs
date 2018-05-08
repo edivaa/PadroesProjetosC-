@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using PadroesProjetos.Classes;
 using PadroesProjetos.Classes.Objetos;
 using PadroesProjetos.Classes.Padroes;
-
 using PadroesProjetos.Classes.Padroes.Abstract_factory;
+using PadroesProjetos.Classes.Padroes.Factory_method;
 
 namespace PadroesProjetos.Classes.Outros
 {
@@ -106,11 +106,21 @@ namespace PadroesProjetos.Classes.Outros
             //Implementacao de AbstractFactory
             //var db = new SQLFactory();// Fabrica concreta de SQL
             var db = new OracleFactory();
-
             var con = db.createConnection();
             con.Open();
             var cmd = db.createCommand();
             cmd.Execute();
+
+
+            //Factory Method
+            Creator[] creators = new Creator[2];
+            creators[0] = new FacbookCreator();
+            creators[1] = new GoogleCreator();
+            foreach(Creator c in creators)
+            {
+                Autenticacao aut = c.CreateInstance();
+                aut.Autenticar();
+            }
 
             Console.ReadLine();
 

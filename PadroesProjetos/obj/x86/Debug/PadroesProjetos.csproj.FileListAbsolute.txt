@@ -10,9 +10,9 @@ C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/Pa
 C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.exe
 C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.pdb
 /Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csprojResolveAssemblyReference.cache
-C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\obj\x86\Debug\PadroesProjetos.csprojResolveAssemblyReference.cache
-C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\obj\x86\Debug\PadroesProjetos.csproj.CoreCompileInputs.cache
 C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\bin\Debug\PadroesProjetos.exe
 C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\bin\Debug\PadroesProjetos.pdb
+C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\obj\x86\Debug\PadroesProjetos.csprojResolveAssemblyReference.cache
+C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\obj\x86\Debug\PadroesProjetos.csproj.CoreCompileInputs.cache
 C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\obj\x86\Debug\PadroesProjetos.exe
 C:\Users\EdivaGt\Documents\Estudos\Ccharp\PadroesProjetosC-\PadroesProjetos\obj\x86\Debug\PadroesProjetos.pdb
