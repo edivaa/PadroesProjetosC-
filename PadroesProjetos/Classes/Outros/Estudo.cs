@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using PadroesProjetos.Classes;
 using PadroesProjetos.Classes.Objetos;
+using PadroesProjetos.Classes.Padroes;
+
+using PadroesProjetos.Classes.Padroes.Abstract_factory;
 
 namespace PadroesProjetos.Classes.Outros
 {
@@ -82,27 +85,34 @@ namespace PadroesProjetos.Classes.Outros
             //Console.WriteLine(op2(4, 6, 9));
             //Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
             //Console.WriteLine(op2(4, 6));//Passando apenas dois valores
-         
+
             //Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
-   
+
             //Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e 
 
             //System.MulticastDelegate
             //delega d;
 
-             //d = delegate (int idade, string nome)
-             // {
-             //     Console.WriteLine("A idade de {1} é {0}", idade, nome);
-             // };
-             //
-             //d(19, "Maria");
-             //d = MetodoComNome;
-             //d(5, "Códigos Eficientes");
+            //d = delegate (int idade, string nome)
+            // {
+            //     Console.WriteLine("A idade de {1} é {0}", idade, nome);
+            // };
+            //
+            //d(19, "Maria");
+            //d = MetodoComNome;
+            //d(5, "Códigos Eficientes");
 
 
-              //Implementacao de AbstractFactory
+            //Implementacao de AbstractFactory
+            //var db = new SQLFactory();// Fabrica concreta de SQL
+            var db = new OracleFactory();
 
-               
+            var con = db.createConnection();
+            con.Open();
+            var cmd = db.createCommand();
+            cmd.Execute();
+
+            Console.ReadLine();
 
         }   
 
