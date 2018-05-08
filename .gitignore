@@ -1,10 +1,12 @@
 *.ide
 *.ide-wal
-8*.csproj
+*.csproj
 *.exe
 *.pdb
 *.cache
 *.txt
 *.sqlite
+*.ide-shm
+	
 
 
