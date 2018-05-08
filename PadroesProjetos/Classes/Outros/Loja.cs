@@ -23,5 +23,5 @@ namespace PadroesProjetos.Classes.Outros
 
         public virtual List<Produto> Produtos { get; set; }
     }
-    }
+    
 }

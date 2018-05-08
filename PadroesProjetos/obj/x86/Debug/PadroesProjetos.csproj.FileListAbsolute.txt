@@ -4,6 +4,10 @@ C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/Pa
 C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.CoreCompileInputs.cache
 C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.exe
 C:/Users/EdivaGt/source/repos/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.pdb
+<<<<<<< HEAD
+=======
+/Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csprojResolveAssemblyReference.cache
+>>>>>>> 4ed9e2104cb7a4834b87c8abbdc7e04c05e2cb6d
 C:/Users/EdivaGt/Documents/Estudos/Ccharp/PadroesProjetosC-/PadroesProjetos/bin/Debug/PadroesProjetos.exe
 C:/Users/EdivaGt/Documents/Estudos/Ccharp/PadroesProjetosC-/PadroesProjetos/bin/Debug/PadroesProjetos.pdb
 C:/Users/EdivaGt/Documents/Estudos/Ccharp/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csprojResolveAssemblyReference.cache
@@ -20,3 +24,4 @@ C:/Users/EdivaGt/Documents/Estudos/Ccharp/PadroesProjetosC-/PadroesProjetos/obj/
 /Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.CoreCompileInputs.cache
 /Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.exe
 /Users/edivagoncalvesteodozio/Projects/PadroesProjetos/PadroesProjetos/obj/x86/Debug/PadroesProjetos.pdb
+/Users/edivagoncalvesteodozio/Documents/Estudo/Programacao/Ccharp/PadroesProjetosC-/PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.CoreCompileInputs.cache

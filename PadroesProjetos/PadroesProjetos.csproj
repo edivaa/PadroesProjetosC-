@@ -40,6 +40,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Outros\Estudo.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\DBFactory.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\DBCconnection.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\DBCommand.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\OracleCommand.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\OracleConnection.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\OracleFactory.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\SQLCommand.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\SQLConnection.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\SQLFactory.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Factory_method\AutenticacaoFacebook.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Factory_method\AutenticacaoGoogle.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Factory_method\Autenticacao.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Factory_method\FacbookCreator.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Factory_method\GoogleCreator.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Factory_method\Creator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Pessoas\Aluno.cs" />

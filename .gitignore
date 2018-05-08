@@ -1,0 +1,230 @@
+# Arquivos específicos do usuário
+* .suo
+*.do utilizador
+* .sln.docstates
+
+# Construir resultados
+[Dd] ebug /
+[Rr] elease /
+x64 /
+[Bb] em /
+[Oo] bj /
+# pasta de construção é usada atualmente para construir scripts e não deve ser ignorada
+#construir/
+
+Pacotes # NuGet
+* .nupkg
+# A pasta packages pode ser ignorada por causa do Package Restore
+** / packages / *
+# exceto build /, que é usado como um destino do MSBuild.
+! ** / packages / build /
+# Descomente, se necessário, mas geralmente será regenerado quando necessário
+#! ** / packages / repositories.config
+
+Resultados do teste # MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+* _i.c
+* _p.c
+* .ilk
+* .meta
+* obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+*.registro
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+*.registro
+* .scc
+
+# Arquivos gerados pelo SO #
+.DS_Store *
+Ícone?
+
+# Arquivos de cache do Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Profiler
+* .psess
+* .vsp
+* .vspx
+
+# Toolkit de automação de orientação
+* .gpState
+
+# ReSharper é um suplemento de codificação .NET
+_ReSharper * /
+* [Rr] e [Ss] harper
+
+# TeamCity é um suplemento de compilação
+_TeamCity *
+
+# DotCover é uma ferramenta de cobertura de código
+* .dotCover
+
+# NCrunch
+* .ncrunch *
+* crunch * .local.xml
+
+# Pasta de saída do InstallShield
+[Ee] xpress /
+
+# DocProject é um complemento do gerador de documentação
+DocProject / buildhelp /
+DocProject / Help / *. HxT
+DocProject / Help / *. HxC
+DocProject / Help / *. Hhc
+DocProject / Help / *. Hhk
+DocProject / Help / *. Hhp
+DocProject / Help / Html2
+DocProject / Help / html
+
+# Diretório Click-Once
+publicar/
+
+# Publicar saída da Web
+* .Publish.xml
+
+# Windows Azure Build Output
+csx
+* .build.csdef
+
+# Diretório de pacotes de aplicativos da Windows Store
+AppPackages /
+
+# Outras
+* .Cache
+ClientBin /
+[Ss] tyle [Cc] op. *
+~ $ *
+* ~
+* .dbmdl
+*. [Pp] ublish.xml
+* .pfx
+* .publishsettings
+modulesbin /
+tempbin /
+
+# Arquivo do site EPiServer (VPP)
+Dados do aplicativo/
+
+# Projetos RIA / Silverlight
+Generated_Code /
+
+# Backup e arquivos de relatório de converter um arquivo de projeto antigo para um mais novo
+# Versão do Visual Studio. Arquivos de backup não são necessários, porque temos git ;-)
+_UpgradeReport_Files /
+Cópia de segurança*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# vim
+* .txt ~
+* .swp
+* .swo
+ 
+# svn
+.svn
+
+# CVS - Controle de origem
+** / CVS /
+
+# Remanescentes de conflitos de resolução no controle de origem
+* .orig
+
+# Arquivos do SQL Server
+** / App_Data / *. Mdf
+** / App_Data / *. Ldf
+** / App_Data / *. Sdf
+
+
+#LightSwitch gerou arquivos
+Artefatos gerados /
+_Pvt_Extensions /
+ModelManifest.xml
+
+# =========================
+# Windows detrito
+# =========================
+
+# Caches de arquivos de imagem do Windows
+Thumbs.db
+ehthumbs.db
+
+# Arquivo de configuração de pastas
+Desktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$ RECYCLE.BIN /
+
+# Arquivos da loja de serviços de área de trabalho do Mac
+.DS_Store
+
+# Cache do compilador SASS
+.sass-cache
+
+# CTP do Visual Studio 2014
+** / *. sln.ide
+
+# Visual temp algo temp
+.vs /
+
+# coisas dotnet
+project.lock.json
+
+# VS 2015+
+* .vc.vc.opendb
+* .vc.db
+
+# Rider
+.idéia/
+
+# Pasta de saída usada pelo Webpack ou outro material FE
+** / node_modules / *
+** / wwwroot / *
+
+# SpecFlow specific
+* .feature.cs
+* .feature.xlsx. *
+* .Specs _ *. Html
+
+#####
+# Fim da lista de ignorados do núcleo, abaixo você coloca as configurações personalizadas 'por projeto' (padrões ou caminho)
+#####
+*.ide
+*.ide-wal
+*.csproj
+*.exe
+*.pdb
+*.cache
+*.txt
+*.sqlite
+*.ide-shm	
+.vs/PadroesProjetos/xs/UserPrefs.xml
+.vs/PadroesProjetos/xs/sqlite3/db.lock
+.vs/PadroesProjetos/xs/sqlite3/storage.ide-shm
+.vs/PadroesProjetos/xs/UserPrefs.xml
+PadroesProjetos/bin/Debug/PadroesProjetos.exe
+PadroesProjetos/bin/Debug/PadroesProjetos.pdb
+PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.CoreCompileInputs.cache
+PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.FileListAbsolute.txt
+PadroesProjetos/obj/x86/Debug/PadroesProjetos.csprojResolveAssemblyReference.cache
+PadroesProjetos/obj/x86/Debug/PadroesProjetos.exe
+PadroesProjetos/obj/x86/Debug/PadroesProjetos.pdb
