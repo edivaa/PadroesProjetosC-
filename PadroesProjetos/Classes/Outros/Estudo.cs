@@ -8,7 +8,7 @@ using PadroesProjetos.Classes.Objetos;
 using PadroesProjetos.Classes.Padroes;
 using PadroesProjetos.Classes.Padroes.Abstract_factory;
 using PadroesProjetos.Classes.Padroes.Factory_method;
-using PadroesProjetos.Classes.Padroes.Criacionais.Singleton;
+//using PadroesProjetos.Classes.Padroes.Criacionais;
 
 namespace PadroesProjetos.Classes.Outros
 {
