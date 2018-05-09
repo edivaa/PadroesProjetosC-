@@ -1,5 +1,7 @@
 ﻿using System;
+using PadroesProjetos.Classes.Objetos;
 using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace PadroesProjetos.Classes.Outros
 {
@@ -7,9 +9,11 @@ namespace PadroesProjetos.Classes.Outros
     public class Loja
     {
 
+		private Produto produto;
+
         public Loja()
         {
-            Produto = new List<Produto>();
+			//produto = new List<Produto>();
         }
 
 
@@ -19,9 +23,10 @@ namespace PadroesProjetos.Classes.Outros
         public string Descricao { get; set; }
 
 
-        public virtual Loja Loja { get; set; }
+		//public virtual Loja Loja { get; set; }
 
-        public virtual List<Produto> Produtos { get; set; }
+        //public virtual List<Produto> Produtos { get; set; }
+       
     }
     
 }
