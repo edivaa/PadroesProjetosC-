@@ -217,14 +217,4 @@ project.lock.json
 *.txt
 *.sqlite
 *.ide-shm	
-.vs/PadroesProjetos/xs/UserPrefs.xml
-.vs/PadroesProjetos/xs/sqlite3/db.lock
-.vs/PadroesProjetos/xs/sqlite3/storage.ide-shm
-.vs/PadroesProjetos/xs/UserPrefs.xml
-PadroesProjetos/bin/Debug/PadroesProjetos.exe
-PadroesProjetos/bin/Debug/PadroesProjetos.pdb
-PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.CoreCompileInputs.cache
-PadroesProjetos/obj/x86/Debug/PadroesProjetos.csproj.FileListAbsolute.txt
-PadroesProjetos/obj/x86/Debug/PadroesProjetos.csprojResolveAssemblyReference.cache
-PadroesProjetos/obj/x86/Debug/PadroesProjetos.exe
-PadroesProjetos/obj/x86/Debug/PadroesProjetos.pdb
+
