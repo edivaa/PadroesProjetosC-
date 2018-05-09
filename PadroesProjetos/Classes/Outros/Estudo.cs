@@ -8,7 +8,7 @@ using PadroesProjetos.Classes.Objetos;
 using PadroesProjetos.Classes.Padroes;
 using PadroesProjetos.Classes.Padroes.Abstract_factory;
 using PadroesProjetos.Classes.Padroes.Factory_method;
-//using PadroesProjetos.Classes.Padroes.Criacionais;
+using PadroesProjetos.Classes.Padroes.Criacionais.Singleton;
 
 namespace PadroesProjetos.Classes.Outros
 {
@@ -124,7 +124,7 @@ namespace PadroesProjetos.Classes.Outros
 			//}
 
 			//Singleton
-			/*var con = ConexaoDB.Instance();
+			var con = ConexaoDB.Instance();
 			con.stringConexao = "SQL server";
 			con.Open();
             
@@ -133,7 +133,7 @@ namespace PadroesProjetos.Classes.Outros
 
 
 			if (con == con2) //esta referenciando a mesma posicao de memoria
-				Console.WriteLine("Sao a mesma intanacia");*/
+				Console.WriteLine("Sao a mesma intanacia");
 
 
             Console.ReadLine();
