@@ -55,6 +55,7 @@
     <Compile Include="Classes\Padroes\Criacionais\Factory_method\FacbookCreator.cs" />
     <Compile Include="Classes\Padroes\Criacionais\Factory_method\GoogleCreator.cs" />
     <Compile Include="Classes\Padroes\Criacionais\Factory_method\Creator.cs" />
+    <Compile Include="Classes\Padroes\Criacionais\Singleton\ConexaoDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Pessoas\Aluno.cs" />

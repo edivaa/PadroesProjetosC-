@@ -134,6 +134,8 @@ namespace PadroesProjetos.Classes.Outros
 
 			if (con == con2) //esta referenciando a mesma posicao de memoria
 				Console.WriteLine("Sao a mesma intanacia");
+
+
             Console.ReadLine();
 
         }   
