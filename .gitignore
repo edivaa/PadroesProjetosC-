@@ -185,6 +185,7 @@ $ RECYCLE.BIN /
 
 # Visual temp algo temp
 .vs /
+.vs
 
 # coisas dotnet
 project.lock.json
