@@ -217,4 +217,8 @@ project.lock.json
 *.txt
 *.sqlite
 *.ide-shm	
-
+###
+# Arquivos de projeto
+###
+PadroesProjetos/bin/Debug/*
+PadroesProjetos/obj/*
