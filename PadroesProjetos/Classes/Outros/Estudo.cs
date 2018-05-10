@@ -134,6 +134,8 @@ namespace PadroesProjetos.Classes.Outros
 			if (con == con2) //esta referenciando a mesma posicao de memoria
 				Console.WriteLine("Sao a mesma intanacia");*/
 
+            //Strategy 
+            //Cria um array com 20 numero randomizados
             long[] inputArray = new long[20];
             Random rnd = new Random();
             for (int i=0; i< inputArray.Length; i++)
@@ -141,14 +143,16 @@ namespace PadroesProjetos.Classes.Outros
                 inputArray[i] = rnd.Next(100);
             }
 
+            //Mostra o numeros desordenados
             Console.WriteLine("Numeros originais");
             foreach (var number in inputArray) 
                 Console.WriteLine(number);
 
-            //ordenando
-            //var alg = new BubbleSort();
-            var alg = new SelectionSort();
-            alg.Sort(inputArray);
+            //Mostra os numeros ordenandos
+            //Context ctx = new Context(new BubbleSort());
+            //Context ctx = new Context(new SelectionSort());
+            Context ctx = new Context(new InsertionSort());
+            ctx.ContextInterface(inputArray); 
             Console.WriteLine("Numeros ordenados");
             foreach (var number in inputArray) 
                  Console.WriteLine(number);
