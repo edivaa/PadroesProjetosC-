@@ -9,6 +9,7 @@ using PadroesProjetos.Classes.Padroes;
 using PadroesProjetos.Classes.Padroes.Abstract_factory;
 using PadroesProjetos.Classes.Padroes.Factory_method;
 using PadroesProjetos.Classes.Padroes.Criacionais.Singleton;
+using PadroesProjetos.Classes.Padroes.Comportamentais;
 
 namespace PadroesProjetos.Classes.Outros
 {
@@ -21,120 +22,140 @@ namespace PadroesProjetos.Classes.Outros
         public void assuntosEstudados() {
 
 
-			//Herancas
-			//Aluno aluno = new Aluno();
-			//aluno.Nome = "Paulo";
-			//aluno.Idade = 25;
-			//aluno.Dormir();
+            //Herancas
+            //Aluno aluno = new Aluno();
+            //aluno.Nome = "Paulo";
+            //aluno.Idade = 25;
+            //aluno.Dormir();
 
 
-			//Funcionario funcionario = new Funcionario();
-			//funcionario.Nome = "Gilberto Santos";
-			//funcionario.Idade = 29;
-			//funcionario.Departamento = "Imóveis";
-			//funcionario.trabalhar();
+            //Funcionario funcionario = new Funcionario();
+            //funcionario.Nome = "Gilberto Santos";
+            //funcionario.Idade = 29;
+            //funcionario.Departamento = "Imóveis";
+            //funcionario.trabalhar();
 
 
-			//Polimorfismo
-			//MeioTransporte carro = new Carro("Astra GSI");
+            //Polimorfismo
+            //MeioTransporte carro = new Carro("Astra GSI");
 
-			//carro.Ligar();
-			//carro.Mover();
-			//carro.Abastecer();
-			//carro.Mover();
+            //carro.Ligar();
+            //carro.Mover();
+            //carro.Abastecer();
+            //carro.Mover();
 
-			//MeioTransporte aviao = new Aviao();
-			//aviao.Marca = "Embrae";
-			//aviao.Modelo = "F22";
-			//aviao.Mover();
-
-
-
-			//Class Abstracts
-			//NoteBook noteBook = new NoteBook("Acer aspire");
-			//
-			//noteBook.Porta1 = new Iphone();
-			//noteBook.Porta1.plugar();
-			//noteBook.Porta2 = new Teclado();
-			//noteBook.Porta2.plugar();
-			//noteBook.Porta3 = new Mouse();
-			//noteBook.Porta3.plugar();
-
-			//Interfaces
-			//Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
-			//MP3 musica = new MP3() { Descricao = "Dream Theater" };
-			//Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
-
-			//doc.abrir();
-			//musica.abrir();
-
-			//foto.abrir();
-			//foto.Imprimir();
-
-			//Delegacao
-			//Gerente chefe = new Gerente();
-			//chefe.Trabalhar("Sistema atendimento ao usuário");
+            //MeioTransporte aviao = new Aviao();
+            //aviao.Marca = "Embrae";
+            //aviao.Modelo = "F22";
+            //aviao.Mover();
 
 
-			//Delegates
 
-			//
-			//Console.WriteLine("Resultado do calculo:" + Calcular(5, 7));
-			//Formula op = (a, b) => (a + b) * 3;
-			//Console.WriteLine(op(5,7));
-			//FormulaOp op2 = (a, b, c) => (a + b) * 3 + c;
-			//Console.WriteLine(op2(4, 6, 9));
-			//Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
-			//Console.WriteLine(op2(4, 6));//Passando apenas dois valores
+            //Class Abstracts
+            //NoteBook noteBook = new NoteBook("Acer aspire");
+            //
+            //noteBook.Porta1 = new Iphone();
+            //noteBook.Porta1.plugar();
+            //noteBook.Porta2 = new Teclado();
+            //noteBook.Porta2.plugar();
+            //noteBook.Porta3 = new Mouse();
+            //noteBook.Porta3.plugar();
 
-			//Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
+            //Interfaces
+            //Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
+            //MP3 musica = new MP3() { Descricao = "Dream Theater" };
+            //Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
 
-			//Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e 
+            //doc.abrir();
+            //musica.abrir();
 
-			//System.MulticastDelegate
-			//delega d;
+            //foto.abrir();
+            //foto.Imprimir();
 
-			//d = delegate (int idade, string nome)
-			// {
-			//     Console.WriteLine("A idade de {1} é {0}", idade, nome);
-			// };
-			//
-			//d(19, "Maria");
-			//d = MetodoComNome;
-			//d(5, "Códigos Eficientes");
-
-
-			//Implementacao de AbstractFactory
-			//var db = new SQLFactory();// Fabrica concreta de SQL
-			//var db = new OracleFactory();
-			//var con = db.createConnection();
-			//con.Open();
-			//var cmd = db.createCommand();
-			//cmd.Execute();
+            //Delegacao
+            //Gerente chefe = new Gerente();
+            //chefe.Trabalhar("Sistema atendimento ao usuário");
 
 
-			//Factory Method
-			//Creator[] creators = new Creator[2];
-			//creators[0] = new FacbookCreator();
-			//creators[1] = new GoogleCreator();
-			//foreach(Creator c in creators)
-			//{
-			//    Autenticacao aut = c.CreateInstance();
-			//    aut.Autenticar();
-			//}
+            //Delegates
 
-			//Singleton
-			var con = ConexaoDB.Instance();
+            //
+            //Console.WriteLine("Resultado do calculo:" + Calcular(5, 7));
+            //Formula op = (a, b) => (a + b) * 3;
+            //Console.WriteLine(op(5,7));
+            //FormulaOp op2 = (a, b, c) => (a + b) * 3 + c;
+            //Console.WriteLine(op2(4, 6, 9));
+            //Console.WriteLine(op2(4)); //Passando apenas um valor pois os outraos esta setados com default
+            //Console.WriteLine(op2(4, 6));//Passando apenas dois valores
+
+            //Console.WriteLine(op2(4, 6, 10));//Passando os tres valores novamente
+
+            //Console.WriteLine(op2(4,c:8)); //Passando apenas valores de A e 
+
+            //System.MulticastDelegate
+            //delega d;
+
+            //d = delegate (int idade, string nome)
+            // {
+            //     Console.WriteLine("A idade de {1} é {0}", idade, nome);
+            // };
+            //
+            //d(19, "Maria");
+            //d = MetodoComNome;
+            //d(5, "Códigos Eficientes");
+
+
+            //Implementacao de AbstractFactory
+            //var db = new SQLFactory();// Fabrica concreta de SQL
+            //var db = new OracleFactory();
+            //var con = db.createConnection();
+            //con.Open();
+            //var cmd = db.createCommand();
+            //cmd.Execute();
+
+
+            //Factory Method
+            //Creator[] creators = new Creator[2];
+            //creators[0] = new FacbookCreator();
+            //creators[1] = new GoogleCreator();
+            //foreach(Creator c in creators)
+            //{
+            //    Autenticacao aut = c.CreateInstance();
+            //    aut.Autenticar();
+            //}
+
+            //Singleton
+            /*var con = ConexaoDB.Instance();
 			con.stringConexao = "SQL server";
 			con.Open();
             
 			var con2 = ConexaoDB.Instance();
             con2.Open();
-
-
 			if (con == con2) //esta referenciando a mesma posicao de memoria
-				Console.WriteLine("Sao a mesma intanacia");
+				Console.WriteLine("Sao a mesma intanacia");*/
 
+            //Strategy 
+            //Cria um array com 20 numero randomizados
+            long[] inputArray = new long[20];
+            Random rnd = new Random();
+            for (int i=0; i< inputArray.Length; i++)
+            {
+                inputArray[i] = rnd.Next(100);
+            }
+
+            //Mostra o numeros desordenados
+            Console.WriteLine("Numeros originais");
+            foreach (var number in inputArray) 
+                Console.WriteLine(number);
+
+            //Mostra os numeros ordenandos
+            //Context ctx = new Context(new BubbleSort());
+            //Context ctx = new Context(new SelectionSort());
+            Context ctx = new Context(new InsertionSort());
+            ctx.ContextInterface(inputArray); 
+            Console.WriteLine("Numeros ordenados");
+            foreach (var number in inputArray) 
+                 Console.WriteLine(number);
 
             Console.ReadLine();
 

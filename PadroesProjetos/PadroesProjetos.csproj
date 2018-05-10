@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Outros\Estudo.cs" />
+    <Compile Include="Classes\Padroes\Comportamentais\Strategy\SortAlgs.cs" />
     <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\DBFactory.cs" />
     <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\DBCconnection.cs" />
     <Compile Include="Classes\Padroes\Criacionais\Abstract_factory\DBCommand.cs" />
