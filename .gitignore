@@ -216,7 +216,8 @@ project.lock.json
 *.cache
 *.txt
 *.sqlite
-*.ide-shm	
+*.ide-shm
+*.xml	
 ###
 # Arquivos de projeto
 ###
