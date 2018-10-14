@@ -79,8 +79,6 @@ namespace PadroesProjetos.Classes
             _developer.trabalhar(tarefa);
             _tester.Testar(tarefa);
 
-
-
         }
     }
 }
