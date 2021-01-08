@@ -62,15 +62,15 @@ namespace PadroesProjetos.Classes.Outros
             //noteBook.Porta3.plugar();
 
             //Interfaces
-            //Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
-            //MP3 musica = new MP3() { Descricao = "Dream Theater" };
-            //Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
+            Arquivo doc = new Documento() { Descricao = "Artigo .net Magazine" };
+            MP3 musica = new MP3() { Descricao = "Dream Theater" };
+            Foto foto = new Foto { Descricao = "Palestra Delphi Conference" };
 
-            //doc.abrir();
-            //musica.abrir();
+            doc.abrir();
+            musica.abrir();
 
-            //foto.abrir();
-            //foto.Imprimir();
+            foto.abrir();
+            foto.Imprimir();
 
             //Delegacao
             //Gerente chefe = new Gerente();
@@ -136,26 +136,26 @@ namespace PadroesProjetos.Classes.Outros
 
             //Strategy 
             //Cria um array com 20 numero randomizados
-            long[] inputArray = new long[20];
-            Random rnd = new Random();
-            for (int i=0; i< inputArray.Length; i++)
-            {
-                inputArray[i] = rnd.Next(100);
-            }
+            //long[] inputArray = new long[20];
+            //Random rnd = new Random();
+            //for (int i=0; i< inputArray.Length; i++)
+            //{
+            //    inputArray[i] = rnd.Next(100);
+            //}
 
-            //Mostra o numeros desordenados
-            Console.WriteLine("Numeros originais");
-            foreach (var number in inputArray) 
-                Console.WriteLine(number);
+            ////Mostra o numeros desordenados
+            //Console.WriteLine("Numeros originais");
+            //foreach (var number in inputArray) 
+            //    Console.WriteLine(number);
 
-            //Mostra os numeros ordenandos
-            //Context ctx = new Context(new BubbleSort());
-            //Context ctx = new Context(new SelectionSort());
-            Context ctx = new Context(new InsertionSort());
-            ctx.ContextInterface(inputArray); 
-            Console.WriteLine("Numeros ordenados");
-            foreach (var number in inputArray) 
-                 Console.WriteLine(number);
+            ////Mostra os numeros ordenandos
+            ////Context ctx = new Context(new BubbleSort());
+            ////Context ctx = new Context(new SelectionSort());
+            //Context ctx = new Context(new InsertionSort());
+            //ctx.ContextInterface(inputArray); 
+            //Console.WriteLine("Numeros ordenados");
+            //foreach (var number in inputArray) 
+            //     Console.WriteLine(number);
 
             Console.ReadLine();
 
